@@ -1,11 +1,11 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TaskForm from "./TaskForm";
+import TaskForm from "./component/form/TaskForm";
 function App() {
 
   return (
     <div style={{
-         display: "flex",
+        display: "flex",
         justifyContent: "center",
         alignItems: "center",
         minHeight: "100vh",
